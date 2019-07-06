@@ -45,12 +45,6 @@ ADC_results_t ADC_results;
 ThermistorData_t thermistor;         //the thermistor parameters for 
 
 
-#define Vin 5   //volts
-#define R1  2500 //ohms
-#define Vout_bit Vin/1024.0f
-#define KELVIN 273.15
-
-
 
 void ADC_setup(){
     ADCON0bits.CHS=0b0000;  //select AN0 as Analog in
@@ -95,10 +89,11 @@ const char Ohm2C(unsigned const x){
 
 
 char* update_ADC_results(){
-    double Vout=Vin/1024.0f * ADC_results.all;
-    unsigned Rt=R1*Vout/(Vin-Vout);             //Rt->the Termistor in ohms
+    double Vout=(double)thermistor.Vin/1024 * ADC_results.all;
+    unsigned Rt=thermistor.R1*Vout/(thermistor.Vin-Vout);             //Rt->the Termistor in ohms
 
     snprintf(ADC_results.buffer,4,"%d",Ohm2C(Rt));
+
     return ADC_results.buffer;
     
     
