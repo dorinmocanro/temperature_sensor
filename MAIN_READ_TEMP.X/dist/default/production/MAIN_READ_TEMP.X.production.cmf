@@ -78,7 +78,7 @@ idataBANK1 CODE 0 4248 4248 7 1
 dataBANK0 BANK0 1 FC FC 3 1
 dataBANK1 BANK1 1 136 136 7 1
 bssCOMRAM COMRAM 1 5B 5B 2 1
-$C:\Users\dorin\AppData\Local\Temp\sck4.o
+$C:\Users\dorin\AppData\Local\Temp\s1h8.o
 idloc IDLOC 0 200000 200000 8 1
 init CODE 0 E E 4 1
 reset_vec CODE 0 0 0 4 1
@@ -128,66 +128,66 @@ MEDIUMCONST 4254-7FFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\MAIN_READ_TEMP.X.production.o
-8 intcode CODE >159:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-8 intcode CODE >216:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4238 text51 CODE >108:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4238 text51 CODE >109:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-423C text51 CODE >110:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4240 text51 CODE >111:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4246 text51 CODE >112:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-415C text50 CODE >122:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-415C text50 CODE >127:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4160 text50 CODE >130:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4174 text50 CODE >131:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-417E text50 CODE >132:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4182 text50 CODE >133:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4184 text50 CODE >135:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3FDC text49 CODE >222:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3FDC text49 CODE >225:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3FE4 text49 CODE >226:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3FE6 text49 CODE >228:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3FEA text49 CODE >229:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3FF0 text49 CODE >230:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3FF4 text49 CODE >231:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3FF8 text49 CODE >232:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-400E text49 CODE >235:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4102 intcode_body CODE >216:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-410C intcode_body CODE >218:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4126 intcode_body CODE >220:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-363C text47 CODE >121:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-363E text47 CODE >135:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3640 text47 CODE >137:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3644 text47 CODE >138:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3648 text47 CODE >139:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-364C text47 CODE >140:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3650 text47 CODE >141:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3654 text47 CODE >142:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3658 text47 CODE >143:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-365C text47 CODE >144:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3660 text47 CODE >145:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3664 text47 CODE >146:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3668 text47 CODE >147:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-366C text47 CODE >148:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3670 text47 CODE >149:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3674 text47 CODE >125:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3678 text47 CODE >151:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-367C text47 CODE >152:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3680 text47 CODE >153:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-368E text47 CODE >154:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-369C text47 CODE >156:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-36A0 text47 CODE >157:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-36A4 text47 CODE >158:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3EAE text46 CODE >161:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3EB0 text46 CODE >164:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3EB4 text46 CODE >47:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3EB6 text46 CODE >168:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3EBE text46 CODE >171:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3EC6 text46 CODE >172:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3ECC text46 CODE >174:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3ED4 text46 CODE >175:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3ED8 text46 CODE >46:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3EDA text46 CODE >177:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3EF0 text46 CODE >180:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
+8 intcode CODE >159:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+8 intcode CODE >216:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4238 text51 CODE >107:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4238 text51 CODE >108:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+423C text51 CODE >109:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4240 text51 CODE >110:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4246 text51 CODE >111:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+415C text50 CODE >121:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+415C text50 CODE >126:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4160 text50 CODE >130:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4174 text50 CODE >131:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+417E text50 CODE >132:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4182 text50 CODE >133:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4184 text50 CODE >135:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3FDC text49 CODE >222:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3FDC text49 CODE >225:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3FE4 text49 CODE >226:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3FE6 text49 CODE >228:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3FEA text49 CODE >229:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3FF0 text49 CODE >230:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3FF4 text49 CODE >231:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3FF8 text49 CODE >232:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+400E text49 CODE >235:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4102 intcode_body CODE >216:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+410C intcode_body CODE >218:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4126 intcode_body CODE >220:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+363C text47 CODE >121:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+363E text47 CODE >135:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3640 text47 CODE >137:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3644 text47 CODE >138:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3648 text47 CODE >139:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+364C text47 CODE >140:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3650 text47 CODE >141:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3654 text47 CODE >142:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3658 text47 CODE >143:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+365C text47 CODE >144:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3660 text47 CODE >145:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3664 text47 CODE >146:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3668 text47 CODE >147:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+366C text47 CODE >148:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3670 text47 CODE >149:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3674 text47 CODE >125:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3678 text47 CODE >151:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+367C text47 CODE >152:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3680 text47 CODE >153:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+368E text47 CODE >154:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+369C text47 CODE >156:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+36A0 text47 CODE >157:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+36A4 text47 CODE >158:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3EAE text46 CODE >161:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3EB0 text46 CODE >164:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3EB4 text46 CODE >47:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3EB6 text46 CODE >168:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3EBE text46 CODE >171:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3EC6 text46 CODE >172:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3ECC text46 CODE >174:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3ED4 text46 CODE >175:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3ED8 text46 CODE >46:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3EDA text46 CODE >177:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3EF0 text46 CODE >180:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
 4132 text45 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
 4132 text45 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
 413A text45 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
@@ -195,68 +195,68 @@ $dist/default/production\MAIN_READ_TEMP.X.production.o
 4140 text45 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
 414E text45 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
 415A text45 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
-398C text44 CODE >182:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-398C text44 CODE >187:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-399E text44 CODE >51:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-39A2 text44 CODE >191:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-39DA text44 CODE >196:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-39DC text44 CODE >198:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-39F4 text44 CODE >51:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-39F8 text44 CODE >200:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3A06 text44 CODE >201:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3A0C text44 CODE >202:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3A14 text44 CODE >205:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3A1C text44 CODE >195:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3A28 text44 CODE >211:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3A36 text44 CODE >51:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3A3A text44 CODE >213:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3EF2 text43 CODE >16:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-3EF2 text43 CODE >18:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-3F04 text43 CODE >19:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-3F14 text43 CODE >20:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-3F24 text43 CODE >22:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-3F2C text43 CODE >23:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-3F30 text43 CODE >54:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-420E text42 CODE >110:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-420E text42 CODE >111:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4212 text42 CODE >112:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4216 text42 CODE >113:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-421A text42 CODE >116:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-421E text42 CODE >117:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4222 text42 CODE >118:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-3E68 text41 CODE >56:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E68 text41 CODE >57:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E6C text41 CODE >58:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E6E text41 CODE >59:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E70 text41 CODE >61:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E72 text41 CODE >62:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E74 text41 CODE >63:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E7C text41 CODE >65:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E7E text41 CODE >66:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E86 text41 CODE >67:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E8E text41 CODE >70:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E96 text41 CODE >72:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3E9E text41 CODE >73:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3EA4 text41 CODE >75:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3EA6 text41 CODE >79:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3EA8 text41 CODE >80:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3EAA text41 CODE >81:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3EAC text41 CODE >82:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4224 text40 CODE >237:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4224 text40 CODE >238:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4228 text40 CODE >239:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-422C text40 CODE >240:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4230 text40 CODE >241:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4232 text40 CODE >242:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4234 text40 CODE >243:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-4236 text40 CODE >244:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\Display.c
-41F0 text39 CODE >138:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-41F0 text39 CODE >139:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-41FA text39 CODE >141:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-41FE text39 CODE >144:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4202 text39 CODE >149:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-420A text39 CODE >150:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-420C text39 CODE >151:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
+398C text44 CODE >182:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+398C text44 CODE >187:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+399E text44 CODE >51:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+39A2 text44 CODE >191:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+39DA text44 CODE >196:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+39DC text44 CODE >198:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+39F4 text44 CODE >51:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+39F8 text44 CODE >200:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3A06 text44 CODE >201:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3A0C text44 CODE >202:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3A14 text44 CODE >205:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3A1C text44 CODE >195:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3A28 text44 CODE >211:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3A36 text44 CODE >51:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3A3A text44 CODE >213:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3EF2 text43 CODE >16:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+3EF2 text43 CODE >18:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+3F04 text43 CODE >19:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+3F14 text43 CODE >20:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+3F24 text43 CODE >22:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+3F2C text43 CODE >23:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+3F30 text43 CODE >54:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+420E text42 CODE >110:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+420E text42 CODE >111:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4212 text42 CODE >112:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4216 text42 CODE >113:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+421A text42 CODE >116:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+421E text42 CODE >117:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4222 text42 CODE >118:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+3E68 text41 CODE >55:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E68 text41 CODE >56:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E6C text41 CODE >57:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E6E text41 CODE >58:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E70 text41 CODE >60:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E72 text41 CODE >61:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E74 text41 CODE >62:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E7C text41 CODE >64:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E7E text41 CODE >65:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E86 text41 CODE >66:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E8E text41 CODE >69:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E96 text41 CODE >71:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3E9E text41 CODE >72:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3EA4 text41 CODE >74:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3EA6 text41 CODE >78:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3EA8 text41 CODE >79:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3EAA text41 CODE >80:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3EAC text41 CODE >81:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4224 text40 CODE >237:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4224 text40 CODE >238:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4228 text40 CODE >239:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+422C text40 CODE >240:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4230 text40 CODE >241:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4232 text40 CODE >242:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4234 text40 CODE >243:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+4236 text40 CODE >244:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\Display3.c
+41F0 text39 CODE >138:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+41F0 text39 CODE >139:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+41FA text39 CODE >141:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+41FE text39 CODE >143:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4202 text39 CODE >149:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+420A text39 CODE >150:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+420C text39 CODE >151:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
 38D0 text38 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
 38D0 text38 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
 38DE text38 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
@@ -628,10 +628,10 @@ $dist/default/production\MAIN_READ_TEMP.X.production.o
 1C10 text32 CODE >68:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\logf.c
 1C78 text32 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\logf.c
 1CD0 text32 CODE >69:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\logf.c
-2A2A text31 CODE >86:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-2A2A text31 CODE >89:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-2A70 text31 CODE >90:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-2BE8 text31 CODE >95:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
+2A2A text31 CODE >85:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+2A2A text31 CODE >88:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+2A70 text31 CODE >89:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+2BE8 text31 CODE >94:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
 41AC text30 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
 41AC text30 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
 41B8 text30 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
@@ -1055,73 +1055,73 @@ FF6 text6 CODE >1078:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\
 4042 text3 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\snprintf.c
 404C text3 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\snprintf.c
 4070 text3 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\snprintf.c
-352E text2 CODE >98:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-352E text2 CODE >99:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3574 text2 CODE >100:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-35FC text2 CODE >102:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-3630 text2 CODE >103:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-363A text2 CODE >106:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4186 text1 CODE >114:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-4186 text1 CODE >115:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-418E text1 CODE >116:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-419A text1 CODE >118:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-419E text1 CODE >119:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-41AA text1 CODE >120:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\source/temperatureSensor.c
-41D2 text0 CODE >56:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-41D2 text0 CODE >57:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-41D6 text0 CODE >58:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-41DA text0 CODE >59:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-41DE text0 CODE >63:D:\Users\dorin\Downloads\Pic18f255_THermistor_temperature-master\temperature_sensor\MAIN_READ_TEMP.X\main.c
-3CCA cinit CODE >1733:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CCA cinit CODE >1735:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CCA cinit CODE >1738:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CCA cinit CODE >1802:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CCC cinit CODE >1803:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CCE cinit CODE >1804:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CD0 cinit CODE >1805:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CD2 cinit CODE >1806:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CD4 cinit CODE >1807:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CD6 cinit CODE >1808:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CDA cinit CODE >1809:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CDE cinit CODE >1810:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CDE cinit CODE >1811:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CE0 cinit CODE >1812:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CE4 cinit CODE >1813:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CE6 cinit CODE >1814:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CE8 cinit CODE >1815:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CEA cinit CODE >1819:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CEC cinit CODE >1820:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CEE cinit CODE >1821:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CF0 cinit CODE >1822:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CF2 cinit CODE >1823:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CF4 cinit CODE >1824:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CF6 cinit CODE >1825:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CF8 cinit CODE >1826:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CFC cinit CODE >1827:C:\Users\dorin\AppData\Local\Temp\sck4.
-3CFE cinit CODE >1828:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D02 cinit CODE >1829:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D04 cinit CODE >1830:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D08 cinit CODE >1834:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D0C cinit CODE >1835:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D0E cinit CODE >1836:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D0E cinit CODE >1837:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D10 cinit CODE >1838:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D12 cinit CODE >1839:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D14 cinit CODE >1842:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D18 cinit CODE >1843:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D1A cinit CODE >1844:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D1A cinit CODE >1845:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D1C cinit CODE >1846:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D1E cinit CODE >1847:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D20 cinit CODE >1850:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D22 cinit CODE >1851:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D24 cinit CODE >1857:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D24 cinit CODE >1859:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D26 cinit CODE >1860:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D28 cinit CODE >1862:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D2A cinit CODE >1863:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D2C cinit CODE >1864:C:\Users\dorin\AppData\Local\Temp\sck4.
-3D2E cinit CODE >1865:C:\Users\dorin\AppData\Local\Temp\sck4.
+352E text2 CODE >97:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+352E text2 CODE >98:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3574 text2 CODE >99:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+35FC text2 CODE >101:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+3630 text2 CODE >102:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+363A text2 CODE >105:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4186 text1 CODE >113:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+4186 text1 CODE >114:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+418E text1 CODE >115:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+419A text1 CODE >117:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+419E text1 CODE >118:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+41AA text1 CODE >119:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\source/temperatureSensor.c
+41D2 text0 CODE >56:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+41D2 text0 CODE >57:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+41D6 text0 CODE >58:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+41DA text0 CODE >59:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+41DE text0 CODE >63:C:\Users\dorin\Desktop\temperature_sensor\temperature_sensor-master\MAIN_READ_TEMP.X\main.c
+3CCA cinit CODE >1733:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CCA cinit CODE >1735:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CCA cinit CODE >1738:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CCA cinit CODE >1802:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CCC cinit CODE >1803:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CCE cinit CODE >1804:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CD0 cinit CODE >1805:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CD2 cinit CODE >1806:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CD4 cinit CODE >1807:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CD6 cinit CODE >1808:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CDA cinit CODE >1809:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CDE cinit CODE >1810:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CDE cinit CODE >1811:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CE0 cinit CODE >1812:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CE4 cinit CODE >1813:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CE6 cinit CODE >1814:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CE8 cinit CODE >1815:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CEA cinit CODE >1819:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CEC cinit CODE >1820:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CEE cinit CODE >1821:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CF0 cinit CODE >1822:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CF2 cinit CODE >1823:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CF4 cinit CODE >1824:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CF6 cinit CODE >1825:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CF8 cinit CODE >1826:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CFC cinit CODE >1827:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3CFE cinit CODE >1828:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D02 cinit CODE >1829:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D04 cinit CODE >1830:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D08 cinit CODE >1834:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D0C cinit CODE >1835:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D0E cinit CODE >1836:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D0E cinit CODE >1837:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D10 cinit CODE >1838:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D12 cinit CODE >1839:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D14 cinit CODE >1842:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D18 cinit CODE >1843:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D1A cinit CODE >1844:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D1A cinit CODE >1845:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D1C cinit CODE >1846:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D1E cinit CODE >1847:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D20 cinit CODE >1850:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D22 cinit CODE >1851:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D24 cinit CODE >1857:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D24 cinit CODE >1859:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D26 cinit CODE >1860:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D28 cinit CODE >1862:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D2A cinit CODE >1863:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D2C cinit CODE >1864:C:\Users\dorin\AppData\Local\Temp\s1h8.
+3D2E cinit CODE >1865:C:\Users\dorin\AppData\Local\Temp\s1h8.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -1159,7 +1159,7 @@ strncmp@_l 3 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.pr
 strncmp@_r 5 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\MAIN_READ_TEMP.X.production.o
 __end_of_ADC_setup 3EAE 0 CODE 0 text41 dist/default/production\MAIN_READ_TEMP.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\dorin\AppData\Local\Temp\sck4.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\dorin\AppData\Local\Temp\s1h8.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\MAIN_READ_TEMP.X.production.o
 Ohm2C@logR C2 0 BANK0 1 cstackBANK0 dist/default/production\MAIN_READ_TEMP.X.production.o
 isalpha@c 3 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
@@ -1178,7 +1178,7 @@ logf@z 94 0 BANK0 1 cstackBANK0 dist/default/production\MAIN_READ_TEMP.X.product
 __Lsmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\MAIN_READ_TEMP.X.production.o
 _ADIF 7CF6 0 ABS 0 - dist/default/production\MAIN_READ_TEMP.X.production.o
 _LATB F8A 0 ABS 0 - dist/default/production\MAIN_READ_TEMP.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\dorin\AppData\Local\Temp\sck4.o
+___sp 0 0 STACK 2 stack C:\Users\dorin\AppData\Local\Temp\s1h8.o
 _atoi 3062 0 CODE 0 text27 dist/default/production\MAIN_READ_TEMP.X.production.o
 _ctoa 3D88 0 CODE 0 text22 dist/default/production\MAIN_READ_TEMP.X.production.o
 _dbuf 10F 0 BANK1 1 bssBANK1 dist/default/production\MAIN_READ_TEMP.X.production.o
@@ -1196,7 +1196,7 @@ btemp 5D 0 COMRAM 1 temp dist/default/production\MAIN_READ_TEMP.X.production.o
 pad@i 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 pad@p 17 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 pad@w 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
-start E 0 CODE 0 init C:\Users\dorin\AppData\Local\Temp\sck4.o
+start E 0 CODE 0 init C:\Users\dorin\AppData\Local\Temp\s1h8.o
 ___aomod@counter 13 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 ___flmul@aexp 22 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 ___flmul@bexp 23 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
@@ -1259,11 +1259,11 @@ utoa@i 3C 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.produ
 utoa@n 34 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 utoa@p 30 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 utoa@w 32 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\dorin\AppData\Local\Temp\sck4.o
-intlevel0 0 0 CODE 0 text C:\Users\dorin\AppData\Local\Temp\sck4.o
-intlevel1 0 0 CODE 0 text C:\Users\dorin\AppData\Local\Temp\sck4.o
-intlevel2 0 0 CODE 0 text C:\Users\dorin\AppData\Local\Temp\sck4.o
-intlevel3 0 0 CODE 0 text C:\Users\dorin\AppData\Local\Temp\sck4.o
+__accesstop 60 0 ABS 0 - C:\Users\dorin\AppData\Local\Temp\s1h8.o
+intlevel0 0 0 CODE 0 text C:\Users\dorin\AppData\Local\Temp\s1h8.o
+intlevel1 0 0 CODE 0 text C:\Users\dorin\AppData\Local\Temp\s1h8.o
+intlevel2 0 0 CODE 0 text C:\Users\dorin\AppData\Local\Temp\s1h8.o
+intlevel3 0 0 CODE 0 text C:\Users\dorin\AppData\Local\Temp\s1h8.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 __CFG_USBDIV$1 0 0 ABS 0 - dist/default/production\MAIN_READ_TEMP.X.production.o
 __end_of_display3 3A3C 0 CODE 0 text44 dist/default/production\MAIN_READ_TEMP.X.production.o
@@ -1297,8 +1297,8 @@ _setupPortDisplay 420E 0 CODE 0 text42 dist/default/production\MAIN_READ_TEMP.X.
 __size_of_sensorRead_ISR 0 0 ABS 0 - dist/default/production\MAIN_READ_TEMP.X.production.o
 _vfpfcnvrt$198 64 0 BANK0 1 cstackBANK0 dist/default/production\MAIN_READ_TEMP.X.production.o
 _vfpfcnvrt$199 66 0 BANK0 1 cstackBANK0 dist/default/production\MAIN_READ_TEMP.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\dorin\AppData\Local\Temp\sck4.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\dorin\AppData\Local\Temp\sck4.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\dorin\AppData\Local\Temp\s1h8.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\dorin\AppData\Local\Temp\s1h8.o
 _logf$1782 9C 0 BANK0 1 cstackBANK0 dist/default/production\MAIN_READ_TEMP.X.production.o
 _logf$1783 76 0 BANK0 1 cstackBANK0 dist/default/production\MAIN_READ_TEMP.X.production.o
 _logf$1784 7A 0 BANK0 1 cstackBANK0 dist/default/production\MAIN_READ_TEMP.X.production.o
@@ -1419,7 +1419,7 @@ _count_sec FC 0 BANK0 1 dataBANK0 dist/default/production\MAIN_READ_TEMP.X.produ
 __size_of___xxtofl 0 0 ABS 0 - dist/default/production\MAIN_READ_TEMP.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\MAIN_READ_TEMP.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\MAIN_READ_TEMP.X.production.o
-__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\dorin\AppData\Local\Temp\sck4.o
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\dorin\AppData\Local\Temp\s1h8.o
 ___xxtofl@arg D 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 ___xxtofl@exp C 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 ___xxtofl@val 3 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
@@ -1682,8 +1682,8 @@ _vsnprintf 372E 0 CODE 0 text4 dist/default/production\MAIN_READ_TEMP.X.producti
 ___fldiv@new_exp 53 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production\MAIN_READ_TEMP.X.production.o
 __CFG_CCP2MX$ON 0 0 ABS 0 - dist/default/production\MAIN_READ_TEMP.X.production.o
-stackhi 7FF 0 ABS 0 - C:\Users\dorin\AppData\Local\Temp\sck4.o
-stacklo 13F 0 ABS 0 - C:\Users\dorin\AppData\Local\Temp\sck4.o
+stackhi 7FF 0 ABS 0 - C:\Users\dorin\AppData\Local\Temp\s1h8.o
+stacklo 13F 0 ABS 0 - C:\Users\dorin\AppData\Local\Temp\s1h8.o
 stoa@cp 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 stoa@fp C 0 COMRAM 1 cstackCOMRAM dist/default/production\MAIN_READ_TEMP.X.production.o
 __Lintcode 8 0 CODE 0 intcode dist/default/production\MAIN_READ_TEMP.X.production.o
@@ -1804,7 +1804,7 @@ __Ltext49 0 0 ABS 0 text49 dist/default/production\MAIN_READ_TEMP.X.production.o
 __Ltext50 0 0 ABS 0 text50 dist/default/production\MAIN_READ_TEMP.X.production.o
 __Ltext51 0 0 ABS 0 text51 dist/default/production\MAIN_READ_TEMP.X.production.o
 __Ltext52 0 0 ABS 0 text52 dist/default/production\MAIN_READ_TEMP.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\dorin\AppData\Local\Temp\sck4.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\dorin\AppData\Local\Temp\s1h8.o
 __end_of_send_digit 3EF2 0 CODE 0 text46 dist/default/production\MAIN_READ_TEMP.X.production.o
 _vfprintf 3D32 0 CODE 0 text5 dist/default/production\MAIN_READ_TEMP.X.production.o
 __Lpowerup E 0 CODE 0 powerup dist/default/production\MAIN_READ_TEMP.X.production.o

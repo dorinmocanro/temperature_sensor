@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.05 build -831301201 
-                                                                                               Wed Jul 03 14:56:58 2019
+                                                                                               Tue Jul 30 13:56:08 2019
 
 Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1 
      1                           	processor	18F2550
@@ -1439,7 +1439,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1425                           
   1426 ;; *************** function _temperature *****************
   1427 ;; Defined at:
-  1428 ;;		line 114 in file "source/temperatureSensor.c"
+  1428 ;;		line 113 in file "source/temperatureSensor.c"
   1429 ;; Parameters:    Size  Location     Type
   1430 ;;		None
   1431 ;; Auto vars:     Size  Location     Type
@@ -1473,7 +1473,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1459  004186                     _temperature:
   1460                           	opt callstack 17
   1461                           
-  1462                           ;source/temperatureSensor.c: 115:     if(ADC_results.isUpdated){
+  1462                           ;source/temperatureSensor.c: 114:     if(ADC_results.isUpdated){
   1463                           
   1464                           ;incstack = 0
   1465  004186  0101               	movlb	1	; () banked
@@ -1482,7 +1482,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1468  00418C  D006               	goto	l5241
   1469                           
   1470                           ; BSR set to: 1
-  1471                           ;source/temperatureSensor.c: 116:         return ADC_results.buffer;
+  1471                           ;source/temperatureSensor.c: 115:         return ADC_results.buffer;
   1472  00418E  0E31               	movlw	low (_ADC_results+2)
   1473  004190  0100               	movlb	0	; () banked
   1474  004192  6FDB               	movwf	?_temperature& (0+255),b
@@ -1492,12 +1492,12 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1478  00419A                     l5241:
   1479                           
   1480                           ; BSR set to: 1
-  1481                           ;source/temperatureSensor.c: 118:     ADC_results.isUpdated=1;
+  1481                           ;source/temperatureSensor.c: 117:     ADC_results.isUpdated=1;
   1482  00419A  0E01               	movlw	1
   1483  00419C  6F35               	movwf	(_ADC_results+6)& (0+255),b
   1484                           
   1485                           ; BSR set to: 1
-  1486                           ;source/temperatureSensor.c: 119:     return update_ADC_results();
+  1486                           ;source/temperatureSensor.c: 118:     return update_ADC_results();
   1487  00419E  EC97  F01A         	call	_update_ADC_results	;wreg free
   1488  0041A2  C0D2  F0DB         	movff	?_update_ADC_results,?_temperature
   1489  0041A6  C0D3  F0DC         	movff	?_update_ADC_results+1,?_temperature+1
@@ -1507,7 +1507,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1493                           
   1494 ;; *************** function _update_ADC_results *****************
   1495 ;; Defined at:
-  1496 ;;		line 98 in file "source/temperatureSensor.c"
+  1496 ;;		line 97 in file "source/temperatureSensor.c"
   1497 ;; Parameters:    Size  Location     Type
   1498 ;;		None
   1499 ;; Auto vars:     Size  Location     Type
@@ -1548,7 +1548,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1534  00352E                     _update_ADC_results:
   1535                           	opt callstack 17
   1536                           
-  1537                           ;source/temperatureSensor.c: 99:     double Vout=5/1024.0f * ADC_results.all;
+  1537                           ;source/temperatureSensor.c: 98:     double Vout=5/1024.0f * ADC_results.all;
   1538                           
   1539                           ;incstack = 0
   1540  00352E  C12F  F003         	movff	_ADC_results,___xxtofl@val
@@ -1575,7 +1575,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1561  00356C  C013  F0D9         	movff	?___flmul+2,update_ADC_results@Vout+2
   1562  003570  C014  F0DA         	movff	?___flmul+3,update_ADC_results@Vout+3
   1563                           
-  1564                           ;source/temperatureSensor.c: 100:     unsigned Rt=2500*Vout/(5 -Vout);
+  1564                           ;source/temperatureSensor.c: 99:     unsigned Rt=2500*Vout/(5 -Vout);
   1565  003574  C0D7  F03E         	movff	update_ADC_results@Vout,___flsub@a
   1566  003578  C0D8  F03F         	movff	update_ADC_results@Vout+1,___flsub@a+1
   1567  00357C  C0D9  F040         	movff	update_ADC_results@Vout+2,___flsub@a+2
@@ -1619,7 +1619,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1605  0035F4  C060  F0D5         	movff	?___fltol,update_ADC_results@Rt
   1606  0035F8  C061  F0D6         	movff	?___fltol+1,update_ADC_results@Rt+1
   1607                           
-  1608                           ;source/temperatureSensor.c: 102:     snprintf(ADC_results.buffer,4,"%d",Ohm2C(Rt));
+  1608                           ;source/temperatureSensor.c: 101:     snprintf(ADC_results.buffer,4,"%d",Ohm2C(Rt));
   1609  0035FC  0E31               	movlw	low (_ADC_results+2)
   1610  0035FE  0100               	movlb	0	; () banked
   1611  003600  6FC6               	movwf	snprintf@s& (0+255),b
@@ -1643,7 +1643,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   1629  00362A  6BCD               	clrf	(?_snprintf+7)& (0+255),b
   1630  00362C  EC21  F020         	call	_snprintf	;wreg free
   1631                           
-  1632                           ;source/temperatureSensor.c: 103:     return ADC_results.buffer;
+  1632                           ;source/temperatureSensor.c: 102:     return ADC_results.buffer;
   1633  003630  0E31               	movlw	low (_ADC_results+2)
   1634  003632  0100               	movlb	0	; () banked
   1635  003634  6FD2               	movwf	?_update_ADC_results& (0+255),b
@@ -7537,7 +7537,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   7227                           
   7228 ;; *************** function _Ohm2C *****************
   7229 ;; Defined at:
-  7230 ;;		line 86 in file "source/temperatureSensor.c"
+  7230 ;;		line 85 in file "source/temperatureSensor.c"
   7231 ;; Parameters:    Size  Location     Type
   7232 ;;  x               2   76[BANK0 ] const unsigned int 
   7233 ;; Auto vars:     Size  Location     Type
@@ -7576,7 +7576,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   7266  002A2A                     _Ohm2C:
   7267                           	opt callstack 22
   7268                           
-  7269                           ;source/temperatureSensor.c: 89:     float logR=logf(x);
+  7269                           ;source/temperatureSensor.c: 88:     float logR=logf(x);
   7270                           
   7271                           ;incstack = 0
   7272  002A2A  C0AC  F003         	movff	Ohm2C@x,___xxtofl@val
@@ -7590,7 +7590,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   7280  002A44  C005  F0B0         	movff	?___xxtofl+2,_Ohm2C$1777+2
   7281  002A48  C006  F0B1         	movff	?___xxtofl+3,_Ohm2C$1777+3
   7282                           
-  7283                           ;source/temperatureSensor.c: 89:     float logR=logf(x);
+  7283                           ;source/temperatureSensor.c: 88:     float logR=logf(x);
   7284  002A4C  C0AE  F060         	movff	_Ohm2C$1777,logf@x
   7285  002A50  C0AF  F061         	movff	_Ohm2C$1777+1,logf@x+1
   7286  002A54  C0B0  F062         	movff	_Ohm2C$1777+2,logf@x+2
@@ -7601,7 +7601,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   7291  002A68  C062  F0C4         	movff	?_logf+2,Ohm2C@logR+2
   7292  002A6C  C063  F0C5         	movff	?_logf+3,Ohm2C@logR+3
   7293                           
-  7294                           ;source/temperatureSensor.c: 90:     return 1.0f/(
+  7294                           ;source/temperatureSensor.c: 89:     return 1.0f/(
   7295  002A70  C0C2  F015         	movff	Ohm2C@logR,___flmul@a
   7296  002A74  C0C3  F016         	movff	Ohm2C@logR+1,___flmul@a+1
   7297  002A78  C0C4  F017         	movff	Ohm2C@logR+2,___flmul@a+2
@@ -7616,7 +7616,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   7306  002A9C  C013  F0B4         	movff	?___flmul+2,_Ohm2C$1778+2
   7307  002AA0  C014  F0B5         	movff	?___flmul+3,_Ohm2C$1778+3
   7308                           
-  7309                           ;source/temperatureSensor.c: 90:     return 1.0f/(
+  7309                           ;source/temperatureSensor.c: 89:     return 1.0f/(
   7310  002AA4  C0C2  F015         	movff	Ohm2C@logR,___flmul@a
   7311  002AA8  C0C3  F016         	movff	Ohm2C@logR+1,___flmul@a+1
   7312  002AAC  C0C4  F017         	movff	Ohm2C@logR+2,___flmul@a+2
@@ -7631,7 +7631,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   7321  002AD0  C013  F0B8         	movff	?___flmul+2,_Ohm2C$1779+2
   7322  002AD4  C014  F0B9         	movff	?___flmul+3,_Ohm2C$1779+3
   7323                           
-  7324                           ;source/temperatureSensor.c: 90:     return 1.0f/(
+  7324                           ;source/temperatureSensor.c: 89:     return 1.0f/(
   7325  002AD8  C100  F02E         	movff	_thermistor,___fladd@a
   7326  002ADC  C101  F02F         	movff	_thermistor+1,___fladd@a+1
   7327  002AE0  C102  F030         	movff	_thermistor+2,___fladd@a+2
@@ -7655,7 +7655,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   7345  002B28  C02C  F0BC         	movff	?___fladd+2,_Ohm2C$1780+2
   7346  002B2C  C02D  F0BD         	movff	?___fladd+3,_Ohm2C$1780+3
   7347                           
-  7348                           ;source/temperatureSensor.c: 90:     return 1.0f/(
+  7348                           ;source/temperatureSensor.c: 89:     return 1.0f/(
   7349  002B30  C0C2  F015         	movff	Ohm2C@logR,___flmul@a
   7350  002B34  C0C3  F016         	movff	Ohm2C@logR+1,___flmul@a+1
   7351  002B38  C0C4  F017         	movff	Ohm2C@logR+2,___flmul@a+2
@@ -7692,7 +7692,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   7382  002BA4  C044  F0C0         	movff	?___fldiv+2,_Ohm2C$1781+2
   7383  002BA8  C045  F0C1         	movff	?___fldiv+3,_Ohm2C$1781+3
   7384                           
-  7385                           ;source/temperatureSensor.c: 90:     return 1.0f/(
+  7385                           ;source/temperatureSensor.c: 89:     return 1.0f/(
   7386  002BAC  0E33               	movlw	51
   7387  002BAE  6E2E               	movwf	___fladd@a,c
   7388  002BB0  0E93               	movlw	147
@@ -10136,7 +10136,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   9826                           ;source/temperatureSensor.c: 141:     setup_TMR0();
   9827  0041FA  EC12  F021         	call	_setup_TMR0	;wreg free
   9828                           
-  9829                           ;source/temperatureSensor.c: 144:     ADC_setup();
+  9829                           ;source/temperatureSensor.c: 143:     ADC_setup();
   9830  0041FE  EC34  F01F         	call	_ADC_setup	;wreg free
   9831                           
   9832                           ;source/temperatureSensor.c: 149:     ADCON0bits.ADON=1; _delay((unsigned long)((3)*(800
@@ -10154,7 +10154,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   9843                           
   9844 ;; *************** function _setup_TMR0 *****************
   9845 ;; Defined at:
-  9846 ;;		line 237 in file "Display.c"
+  9846 ;;		line 237 in file "Display3.c"
   9847 ;; Parameters:    Size  Location     Type
   9848 ;;		None
   9849 ;; Auto vars:     Size  Location     Type
@@ -10188,27 +10188,27 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   9877  004224                     _setup_TMR0:
   9878                           	opt callstack 26
   9879                           
-  9880                           ;Display.c: 238:     T0CON=0b10001111;
+  9880                           ;Display3.c: 238:     T0CON=0b10001111;
   9881                           
   9882                           ;incstack = 0
   9883  004224  0E8F               	movlw	143
   9884  004226  6ED5               	movwf	4053,c	;volatile
   9885                           
-  9886                           ;Display.c: 239:     TMR0H=0x00;
+  9886                           ;Display3.c: 239:     TMR0H=0x00;
   9887  004228  0E00               	movlw	0
   9888  00422A  6ED7               	movwf	4055,c	;volatile
   9889                           
-  9890                           ;Display.c: 240:     TMR0L=0x00;
+  9890                           ;Display3.c: 240:     TMR0L=0x00;
   9891  00422C  0E00               	movlw	0
   9892  00422E  6ED6               	movwf	4054,c	;volatile
   9893                           
-  9894                           ;Display.c: 241:     INTCONbits.TMR0IE=1;
+  9894                           ;Display3.c: 241:     INTCONbits.TMR0IE=1;
   9895  004230  8AF2               	bsf	4082,5,c	;volatile
   9896                           
-  9897                           ;Display.c: 242:     INTCONbits.GIE=1;
+  9897                           ;Display3.c: 242:     INTCONbits.GIE=1;
   9898  004232  8EF2               	bsf	4082,7,c	;volatile
   9899                           
-  9900                           ;Display.c: 243:     RCONbits.IPEN=0;
+  9900                           ;Display3.c: 243:     RCONbits.IPEN=0;
   9901  004234  9ED0               	bcf	4048,7,c	;volatile
   9902  004236  0012               	return		;funcret
   9903  004238                     __end_of_setup_TMR0:
@@ -10216,7 +10216,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   9905                           
   9906 ;; *************** function _ADC_setup *****************
   9907 ;; Defined at:
-  9908 ;;		line 56 in file "source/temperatureSensor.c"
+  9908 ;;		line 55 in file "source/temperatureSensor.c"
   9909 ;; Parameters:    Size  Location     Type
   9910 ;;		None
   9911 ;; Auto vars:     Size  Location     Type
@@ -10250,72 +10250,72 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
   9939  003E68                     _ADC_setup:
   9940                           	opt callstack 26
   9941                           
-  9942                           ;source/temperatureSensor.c: 57:     ADCON0bits.CHS=0b0000;
+  9942                           ;source/temperatureSensor.c: 56:     ADCON0bits.CHS=0b0000;
   9943                           
   9944                           ;incstack = 0
   9945  003E68  0EC3               	movlw	-61
   9946  003E6A  16C2               	andwf	4034,f,c	;volatile
   9947                           
-  9948                           ;source/temperatureSensor.c: 58:     ADCON0bits.GODONE=0;
+  9948                           ;source/temperatureSensor.c: 57:     ADCON0bits.GODONE=0;
   9949  003E6C  92C2               	bcf	4034,1,c	;volatile
   9950                           
-  9951                           ;source/temperatureSensor.c: 59:     ADCON0bits.ADON=0;
+  9951                           ;source/temperatureSensor.c: 58:     ADCON0bits.ADON=0;
   9952  003E6E  90C2               	bcf	4034,0,c	;volatile
   9953                           
-  9954                           ;source/temperatureSensor.c: 61:     ADCON1bits.VCFG1=0;
+  9954                           ;source/temperatureSensor.c: 60:     ADCON1bits.VCFG1=0;
   9955  003E70  9AC1               	bcf	4033,5,c	;volatile
   9956                           
-  9957                           ;source/temperatureSensor.c: 62:     ADCON1bits.VCFG0=0;
+  9957                           ;source/temperatureSensor.c: 61:     ADCON1bits.VCFG0=0;
   9958  003E72  98C1               	bcf	4033,4,c	;volatile
   9959                           
-  9960                           ;source/temperatureSensor.c: 63:     ADCON1bits.PCFG=0x0E;
+  9960                           ;source/temperatureSensor.c: 62:     ADCON1bits.PCFG=0x0E;
   9961  003E74  50C1               	movf	4033,w,c	;volatile
   9962  003E76  0BF0               	andlw	-16
   9963  003E78  090E               	iorlw	14
   9964  003E7A  6EC1               	movwf	4033,c	;volatile
   9965                           
-  9966                           ;source/temperatureSensor.c: 65:     ADCON2bits.ADFM=1;
+  9966                           ;source/temperatureSensor.c: 64:     ADCON2bits.ADFM=1;
   9967  003E7C  8EC0               	bsf	4032,7,c	;volatile
   9968                           
-  9969                           ;source/temperatureSensor.c: 66:     ADCON2bits.ACQT=0x04;
+  9969                           ;source/temperatureSensor.c: 65:     ADCON2bits.ACQT=0x04;
   9970  003E7E  50C0               	movf	4032,w,c	;volatile
   9971  003E80  0BC7               	andlw	-57
   9972  003E82  0920               	iorlw	32
   9973  003E84  6EC0               	movwf	4032,c	;volatile
   9974                           
-  9975                           ;source/temperatureSensor.c: 67:     ADCON2bits.ADCS=0x01;
+  9975                           ;source/temperatureSensor.c: 66:     ADCON2bits.ADCS=0x01;
   9976  003E86  50C0               	movf	4032,w,c	;volatile
   9977  003E88  0BF8               	andlw	-8
   9978  003E8A  0901               	iorlw	1
   9979  003E8C  6EC0               	movwf	4032,c	;volatile
   9980                           
-  9981                           ;source/temperatureSensor.c: 70:     ADCON2bits.ADCS=0x01;
+  9981                           ;source/temperatureSensor.c: 69:     ADCON2bits.ADCS=0x01;
   9982  003E8E  50C0               	movf	4032,w,c	;volatile
   9983  003E90  0BF8               	andlw	-8
   9984  003E92  0901               	iorlw	1
   9985  003E94  6EC0               	movwf	4032,c	;volatile
   9986                           
-  9987                           ;source/temperatureSensor.c: 72:     ADCON2bits.ACQT=0x02;
+  9987                           ;source/temperatureSensor.c: 71:     ADCON2bits.ACQT=0x02;
   9988  003E96  50C0               	movf	4032,w,c	;volatile
   9989  003E98  0BC7               	andlw	-57
   9990  003E9A  0910               	iorlw	16
   9991  003E9C  6EC0               	movwf	4032,c	;volatile
   9992                           
-  9993                           ;source/temperatureSensor.c: 73:     _delay((unsigned long)((3)*(8000000/4000000.0)));
+  9993                           ;source/temperatureSensor.c: 72:     _delay((unsigned long)((3)*(8000000/4000000.0)));
   9994  003E9E  D000               	nop2		;2 cycle nop
   9995  003EA0  D000               	nop2		;2 cycle nop
   9996  003EA2  D000               	nop2		;2 cycle nop
   9997                           
-  9998                           ;source/temperatureSensor.c: 75:     TRISAbits.RA0=1;
+  9998                           ;source/temperatureSensor.c: 74:     TRISAbits.RA0=1;
   9999  003EA4  8092               	bsf	3986,0,c	;volatile
  10000                           
- 10001                           ;source/temperatureSensor.c: 79:     PIR1bits.ADIF=0;
+ 10001                           ;source/temperatureSensor.c: 78:     PIR1bits.ADIF=0;
  10002  003EA6  9C9E               	bcf	3998,6,c	;volatile
  10003                           
- 10004                           ;source/temperatureSensor.c: 80:     PIE1bits.ADIE=1 ;
+ 10004                           ;source/temperatureSensor.c: 79:     PIE1bits.ADIE=1 ;
  10005  003EA8  8C9D               	bsf	3997,6,c	;volatile
  10006                           
- 10007                           ;source/temperatureSensor.c: 81:     INTCONbits.GIE=1;
+ 10007                           ;source/temperatureSensor.c: 80:     INTCONbits.GIE=1;
  10008  003EAA  8EF2               	bsf	4082,7,c	;volatile
  10009  003EAC  0012               	return		;funcret
  10010  003EAE                     __end_of_ADC_setup:
@@ -10323,7 +10323,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10012                           
  10013 ;; *************** function _setupPortDisplay *****************
  10014 ;; Defined at:
- 10015 ;;		line 110 in file "Display.c"
+ 10015 ;;		line 110 in file "Display3.c"
  10016 ;; Parameters:    Size  Location     Type
  10017 ;;		None
  10018 ;; Auto vars:     Size  Location     Type
@@ -10357,25 +10357,25 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10046  00420E                     _setupPortDisplay:
  10047                           	opt callstack 27
  10048                           
- 10049                           ;Display.c: 111:     PORTB=0x00;
+ 10049                           ;Display3.c: 111:     PORTB=0x00;
  10050                           
  10051                           ;incstack = 0
  10052  00420E  0E00               	movlw	0
  10053  004210  6E81               	movwf	3969,c	;volatile
  10054                           
- 10055                           ;Display.c: 112:     CMCON=0x07;
+ 10055                           ;Display3.c: 112:     CMCON=0x07;
  10056  004212  0E07               	movlw	7
  10057  004214  6EB4               	movwf	4020,c	;volatile
  10058                           
- 10059                           ;Display.c: 113:     ADCON1=0x0F;
+ 10059                           ;Display3.c: 113:     ADCON1=0x0F;
  10060  004216  0E0F               	movlw	15
  10061  004218  6EC1               	movwf	4033,c	;volatile
  10062                           
- 10063                           ;Display.c: 116:     TRISB=0x00;
+ 10063                           ;Display3.c: 116:     TRISB=0x00;
  10064  00421A  0E00               	movlw	0
  10065  00421C  6E93               	movwf	3987,c	;volatile
  10066                           
- 10067                           ;Display.c: 117:     OSCCON=0b01110000;
+ 10067                           ;Display3.c: 117:     OSCCON=0b01110000;
  10068  00421E  0E70               	movlw	112
  10069  004220  6ED3               	movwf	4051,c	;volatile
  10070  004222  0012               	return		;funcret
@@ -10468,7 +10468,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10157                           
  10158 ;; *************** function _display3 *****************
  10159 ;; Defined at:
- 10160 ;;		line 182 in file "Display.c"
+ 10160 ;;		line 182 in file "Display3.c"
  10161 ;; Parameters:    Size  Location     Type
  10162 ;;  data3           2  125[BANK0 ] PTR const unsigned char 
  10163 ;;		 -> ADC_results.buffer(4), ADC_results(7), buffer(4), 
@@ -10506,8 +10506,8 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10195  00398C                     _display3:
  10196                           	opt callstack 26
  10197                           
- 10198                           ;Display.c: 184:              dig_mask= (DIG1 | DIG2 | DIG3);;Display.c: 187:     unsign
-      +                          ed char csize=strlen(data3);
+ 10198                           ;Display3.c: 184:              dig_mask= (DIG1 | DIG2 | DIG3);;Display3.c: 187:     unsi
+      +                          gned char csize=strlen(data3);
  10199                           
  10200                           ; BSR set to: 1
  10201                           ;incstack = 0
@@ -10519,12 +10519,12 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10207  00399C  6FE3               	movwf	display3@csize& (0+255),b
  10208                           
  10209                           ; BSR set to: 0
- 10210                           ;Display.c: 189:     volatile unsigned char bit=DIG1;
+ 10210                           ;Display3.c: 189:     volatile unsigned char bit=DIG1;
  10211  00399E  0E20               	movlw	32
  10212  0039A0  6FE4               	movwf	display3@bit& (0+255),b	;volatile
  10213                           
  10214                           ; BSR set to: 0
- 10215                           ;Display.c: 191:     bit= (bit<<(3 -csize)) | (bit>>(8-3 +csize));
+ 10215                           ;Display3.c: 191:     bit= (bit<<(3 -csize)) | (bit>>(8-3 +csize));
  10216  0039A2  C0E3  F0DF         	movff	display3@csize,??_display3
  10217  0039A6  0E05               	movlw	5
  10218  0039A8  27DF               	addwf	??_display3& (0+255),f,b
@@ -10557,11 +10557,11 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10245  0039DA                     l5029:
  10246                           
  10247                           ; BSR set to: 0
- 10248                           ;Display.c: 196:         LATB &=~OE;
+ 10248                           ;Display3.c: 196:         LATB &=~OE;
  10249  0039DA  988A               	bcf	3978,4,c	;volatile
  10250                           
  10251                           ; BSR set to: 0
- 10252                           ;Display.c: 198:         send_digit( character_table(*(data3++)) );
+ 10252                           ;Display3.c: 198:         send_digit( character_table(*(data3++)) );
  10253  0039DC  C0DD  FFD9         	movff	display3@data3,fsr2l
  10254  0039E0  C0DE  FFDA         	movff	display3@data3+1,fsr2h
  10255  0039E4  50DF               	movf	indf2,w,c
@@ -10572,13 +10572,13 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10260  0039F2  2BDE               	incf	(display3@data3+1)& (0+255),f,b
  10261                           
  10262                           ; BSR set to: 0
- 10263                           ;Display.c: 199:         LATB |= dig_mask;
+ 10263                           ;Display3.c: 199:         LATB |= dig_mask;
  10264  0039F4  0EE0               	movlw	224
  10265  0039F6  128A               	iorwf	3978,f,c	;volatile
  10266                           
  10267                           ; BSR set to: 0
- 10268                           ;Display.c: 200:         LATB=(LATB & ~(SER|SRCLK|SRCLR|RCLK)) | RCLK; LATB=(LATB & ~(SE
-      +                          R|SRCLK|SRCLR|RCLK));;
+ 10268                           ;Display3.c: 200:         LATB=(LATB & ~(SER|SRCLK|SRCLR|RCLK)) | RCLK; LATB=(LATB & ~(S
+      +                          ER|SRCLK|SRCLR|RCLK));;
  10269  0039F8  508A               	movf	3978,w,c	;volatile
  10270  0039FA  0BF0               	andlw	240
  10271  0039FC  0908               	iorlw	8
@@ -10590,20 +10590,20 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10277  003A04  6E8A               	movwf	3978,c	;volatile
  10278                           
  10279                           ; BSR set to: 0
- 10280                           ;Display.c: 201:         _delay((unsigned long)((30)*(8000000/4000000.0)));
+ 10280                           ;Display3.c: 201:         _delay((unsigned long)((30)*(8000000/4000000.0)));
  10281  003A06  0E14               	movlw	20
  10282  003A08                     u5797:
  10283  003A08  2EE8               	decfsz	wreg,f,c
  10284  003A0A  D7FE               	bra	u5797
  10285                           
- 10286                           ;Display.c: 202:         LATB &= ~bit;
+ 10286                           ;Display3.c: 202:         LATB &= ~bit;
  10287  003A0C  0100               	movlb	0	; () banked
  10288  003A0E  51E4               	movf	display3@bit& (0+255),w,b	;volatile
  10289  003A10  0AFF               	xorlw	255
  10290  003A12  168A               	andwf	3978,f,c	;volatile
  10291                           
  10292                           ; BSR set to: 0
- 10293                           ;Display.c: 205:         bit = (bit<<1)|(bit>>7);
+ 10293                           ;Display3.c: 205:         bit = (bit<<1)|(bit>>7);
  10294  003A14  90D8               	bcf	status,0,c
  10295  003A16  35E4               	rlcf	display3@bit& (0+255),w,b	;volatile
  10296  003A18  35E4               	rlcf	display3@bit& (0+255),w,b	;volatile
@@ -10611,7 +10611,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10298  003A1A  6FE4               	movwf	display3@bit& (0+255),b	;volatile
  10299                           
  10300                           ; BSR set to: 0
- 10301                           ;Display.c: 195:     while( bit & dig_mask ) {
+ 10301                           ;Display3.c: 195:     while( bit & dig_mask ) {
  10302  003A1C  C0E4  F0DF         	movff	display3@bit,??_display3	;volatile
  10303  003A20  0EE0               	movlw	224
  10304  003A22  17DF               	andwf	??_display3& (0+255),f,b
@@ -10619,8 +10619,8 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10306  003A26  D7D9               	goto	l5029
  10307                           
  10308                           ; BSR set to: 0
- 10309                           ;Display.c: 211:     send_digit('o');_delay((unsigned long)((20)*(8000000/4000000.0))); 
-      +                          LATB|=dig_mask;
+ 10309                           ;Display3.c: 211:     send_digit('o');_delay((unsigned long)((20)*(8000000/4000000.0)));
+      +                           LATB|=dig_mask;
  10310  003A28  0E6F               	movlw	111
  10311  003A2A  EC57  F01F         	call	_send_digit
  10312  003A2E  0E0D               	movlw	13
@@ -10701,7 +10701,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10387                           
  10388 ;; *************** function _send_digit *****************
  10389 ;; Defined at:
- 10390 ;;		line 161 in file "Display.c"
+ 10390 ;;		line 161 in file "Display3.c"
  10391 ;; Parameters:    Size  Location     Type
  10392 ;;  data            1    wreg     unsigned char 
  10393 ;; Auto vars:     Size  Location     Type
@@ -10741,45 +10741,45 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10427                           ;send_digit@data stored from wreg
  10428  003EAE  6E06               	movwf	send_digit@data,c
  10429                           
- 10430                           ;Display.c: 162:     unsigned char a;;Display.c: 163:     POZ com_mask=SER|SRCLK|SRCLR|R
-      +                          CLK ;;Display.c: 164:     LATB&=~com_mask;
+ 10430                           ;Display3.c: 162:     unsigned char a;;Display3.c: 163:     POZ com_mask=SER|SRCLK|SRCLR
+      +                          |RCLK ;;Display3.c: 164:     LATB&=~com_mask;
  10431  003EB0  0EF0               	movlw	240
  10432  003EB2  168A               	andwf	3978,f,c	;volatile
  10433                           
- 10434                           ;Display.c: 166:     LATB|=SRCLR;
+ 10434                           ;Display3.c: 166:     LATB|=SRCLR;
  10435  003EB4  848A               	bsf	3978,2,c	;volatile
  10436                           
- 10437                           ;Display.c: 168:     for(int i=0;i<8; i++ )
+ 10437                           ;Display3.c: 168:     for(int i=0;i<8; i++ )
  10438  003EB6  0E00               	movlw	0
  10439  003EB8  6E04               	movwf	send_digit@i+1,c
  10440  003EBA  0E00               	movlw	0
  10441  003EBC  6E03               	movwf	send_digit@i,c
  10442  003EBE                     l4931:
  10443                           
- 10444                           ;Display.c: 169:     {;Display.c: 171:         data= (data<<1) | (data>>7);
+ 10444                           ;Display3.c: 169:     {;Display3.c: 171:         data= (data<<1) | (data>>7);
  10445  003EBE  90D8               	bcf	status,0,c
  10446  003EC0  3406               	rlcf	send_digit@data,w,c
  10447  003EC2  3406               	rlcf	send_digit@data,w,c
  10448  003EC4  6E06               	movwf	send_digit@data,c
  10449                           
- 10450                           ;Display.c: 172:         a=LATB & ~(SER|SRCLK);
+ 10450                           ;Display3.c: 172:         a=LATB & ~(SER|SRCLK);
  10451  003EC6  508A               	movf	3978,w,c	;volatile
  10452  003EC8  0BFC               	andlw	252
  10453  003ECA  6E05               	movwf	send_digit@a,c
  10454                           
- 10455                           ;Display.c: 174:         a =a| (data & SER);
+ 10455                           ;Display3.c: 174:         a =a| (data & SER);
  10456  003ECC  5006               	movf	send_digit@data,w,c
  10457  003ECE  0B01               	andlw	1
  10458  003ED0  1005               	iorwf	send_digit@a,w,c
  10459  003ED2  6E05               	movwf	send_digit@a,c
  10460                           
- 10461                           ;Display.c: 175:         LATB=a;
+ 10461                           ;Display3.c: 175:         LATB=a;
  10462  003ED4  C005  FF8A         	movff	send_digit@a,3978	;volatile
  10463                           
- 10464                           ;Display.c: 176:         LATB|=SRCLK;
+ 10464                           ;Display3.c: 176:         LATB|=SRCLK;
  10465  003ED8  828A               	bsf	3978,1,c	;volatile
  10466                           
- 10467                           ;Display.c: 177:     }
+ 10467                           ;Display3.c: 177:     }
  10468  003EDA  4A03               	infsnz	send_digit@i,f,c
  10469  003EDC  2A04               	incf	send_digit@i+1,f,c
  10470  003EDE  BE04               	btfsc	send_digit@i+1,7,c
@@ -10798,7 +10798,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10483                           
  10484 ;; *************** function _character_table *****************
  10485 ;; Defined at:
- 10486 ;;		line 121 in file "Display.c"
+ 10486 ;;		line 121 in file "Display3.c"
  10487 ;; Parameters:    Size  Location     Type
  10488 ;;  symbol          1    wreg     unsigned char 
  10489 ;; Auto vars:     Size  Location     Type
@@ -10836,10 +10836,11 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10521                           ;character_table@symbol stored from wreg
  10522  00363C  6E05               	movwf	character_table@symbol,c
  10523                           
- 10524                           ;Display.c: 124:     c_t o=0x00;;Display.c: 125:     c_t a=0x01;;Display.c: 126:     c_t
-      +                           b=0x01<<1;;Display.c: 127:     c_t c=0x01<<2;;Display.c: 128:     c_t d=0x01<<3;;Displa
-      +                          y.c: 129:     c_t e=0x01<<4;;Display.c: 130:     c_t f=0x01<<5;;Display.c: 131:     c_t 
-      +                          g=0x01<<6;;Display.c: 132:     c_t h=0x01<<7;;Display.c: 135:     switch (symbol){
+ 10524                           ;Display3.c: 124:     c_t o=0x00;;Display3.c: 125:     c_t a=0x01;;Display3.c: 126:     
+      +                          c_t b=0x01<<1;;Display3.c: 127:     c_t c=0x01<<2;;Display3.c: 128:     c_t d=0x01<<3;;D
+      +                          isplay3.c: 129:     c_t e=0x01<<4;;Display3.c: 130:     c_t f=0x01<<5;;Display3.c: 131: 
+      +                              c_t g=0x01<<6;;Display3.c: 132:     c_t h=0x01<<7;;Display3.c: 135:     switch (symb
+      +                          ol){
  10525  00363E  D032               	goto	l4915
  10526  003640                     l4829:
  10527  003640  0E77               	movlw	119
@@ -11010,7 +11011,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10691                           
  10692 ;; *************** function _my_ISR *****************
  10693 ;; Defined at:
- 10694 ;;		line 216 in file "Display.c"
+ 10694 ;;		line 216 in file "Display3.c"
  10695 ;; Parameters:    Size  Location     Type
  10696 ;;		None
  10697 ;; Auto vars:     Size  Location     Type
@@ -11059,7 +11060,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10740  004104  CFFA F001          	movff	pclath,??_my_ISR
  10741  004108  CFFB F002          	movff	pclatu,??_my_ISR+1
  10742                           
- 10743                           ;Display.c: 218:     ptr_ISR();
+ 10743                           ;Display3.c: 218:     ptr_ISR();
  10744  00410C  D801               	call	i2u570_48
  10745  00410E  D00B               	goto	i2u570_49
  10746  004110                     i2u570_48:
@@ -11084,7 +11085,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10765                           
  10766 ;; *************** function _counting_ISR *****************
  10767 ;; Defined at:
- 10768 ;;		line 222 in file "Display.c"
+ 10768 ;;		line 222 in file "Display3.c"
  10769 ;; Parameters:    Size  Location     Type
  10770 ;;		None
  10771 ;; Auto vars:     Size  Location     Type
@@ -11118,7 +11119,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10799  003FDC                     _counting_ISR:
  10800                           	opt callstack 17
  10801                           
- 10802                           ;Display.c: 225:     if( (INTCON & BIT_5) && (INTCON & BIT_2) ) {
+ 10802                           ;Display3.c: 225:     if( (INTCON & BIT_5) && (INTCON & BIT_2) ) {
  10803                           
  10804                           ;incstack = 0
  10805  003FDC  AAF2               	btfss	4082,5,c	;volatile
@@ -11126,31 +11127,31 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10807  003FE0  A4F2               	btfss	4082,2,c	;volatile
  10808  003FE2  0012               	return	
  10809                           
- 10810                           ;Display.c: 226:         INTCON &= ~BIT_2;
+ 10810                           ;Display3.c: 226:         INTCON &= ~BIT_2;
  10811  003FE4  94F2               	bcf	4082,2,c	;volatile
  10812                           
- 10813                           ;Display.c: 228:         count++;
+ 10813                           ;Display3.c: 228:         count++;
  10814  003FE6  0100               	movlb	0	; () banked
  10815  003FE8  2BFE               	incf	_count& (0+255),f,b
  10816                           
  10817                           ; BSR set to: 0
- 10818                           ;Display.c: 229:         if(count>=30) {
+ 10818                           ;Display3.c: 229:         if(count>=30) {
  10819  003FEA  0E1D               	movlw	29
  10820  003FEC  65FE               	cpfsgt	_count& (0+255),b
  10821  003FEE  0012               	return	
  10822                           
  10823                           ; BSR set to: 0
- 10824                           ;Display.c: 230:             count-=30;
+ 10824                           ;Display3.c: 230:             count-=30;
  10825  003FF0  0E1E               	movlw	30
  10826  003FF2  5FFE               	subwf	_count& (0+255),f,b
  10827                           
  10828                           ; BSR set to: 0
- 10829                           ;Display.c: 231:             count_sec++;
+ 10829                           ;Display3.c: 231:             count_sec++;
  10830  003FF4  4BFC               	infsnz	_count_sec& (0+255),f,b
  10831  003FF6  2BFD               	incf	(_count_sec+1)& (0+255),f,b
  10832                           
  10833                           ; BSR set to: 0
- 10834                           ;Display.c: 232:             if(count_sec==1000) count_sec=0;
+ 10834                           ;Display3.c: 232:             if(count_sec==1000) count_sec=0;
  10835  003FF8  0EE8               	movlw	232
  10836  003FFA  19FC               	xorwf	_count_sec& (0+255),w,b
  10837  003FFC  E108               	bnz	i2l407
@@ -11171,7 +11172,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10852                           
  10853 ;; *************** function _sensorRead_ISR *****************
  10854 ;; Defined at:
- 10855 ;;		line 122 in file "source/temperatureSensor.c"
+ 10855 ;;		line 121 in file "source/temperatureSensor.c"
  10856 ;; Parameters:    Size  Location     Type
  10857 ;;		None
  10858 ;; Auto vars:     Size  Location     Type
@@ -11207,7 +11208,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10888  00415C                     _sensorRead_ISR:
  10889                           	opt callstack 17
  10890                           
- 10891                           ;source/temperatureSensor.c: 127:     counting_ISR();
+ 10891                           ;source/temperatureSensor.c: 126:     counting_ISR();
  10892                           
  10893                           ;incstack = 0
  10894  00415C  ECEE  F01F         	call	_counting_ISR	;wreg free
@@ -11245,7 +11246,7 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10926                           
  10927 ;; *************** function _ADC_Read *****************
  10928 ;; Defined at:
- 10929 ;;		line 108 in file "source/temperatureSensor.c"
+ 10929 ;;		line 107 in file "source/temperatureSensor.c"
  10930 ;; Parameters:    Size  Location     Type
  10931 ;;		None
  10932 ;; Auto vars:     Size  Location     Type
@@ -11278,15 +11279,15 @@ Microchip MPLAB XC8 C Compiler v2.05 (Free license) build 20181220022703 Og1
  10959  004238                     _ADC_Read:
  10960                           	opt callstack 17
  10961                           
- 10962                           ;source/temperatureSensor.c: 109:     ADC_results.LOW=ADRESL;
+ 10962                           ;source/temperatureSensor.c: 108:     ADC_results.LOW=ADRESL;
  10963                           
  10964                           ;incstack = 0
  10965  004238  CFC3 F12F          	movff	4035,_ADC_results	;volatile
  10966                           
- 10967                           ;source/temperatureSensor.c: 110:     ADC_results.HIGH=ADRESH;
+ 10967                           ;source/temperatureSensor.c: 109:     ADC_results.HIGH=ADRESH;
  10968  00423C  CFC4 F130          	movff	4036,_ADC_results+1	;volatile
  10969                           
- 10970                           ;source/temperatureSensor.c: 111:     ADC_results.isUpdated=0;
+ 10970                           ;source/temperatureSensor.c: 110:     ADC_results.isUpdated=0;
  10971  004240  0E00               	movlw	0
  10972  004242  0101               	movlb	1	; () banked
  10973  004244  6F35               	movwf	(_ADC_results+6)& (0+255),b
@@ -12352,7 +12353,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V2.05 build -831301201 
-Symbol Table                                                                                   Wed Jul 03 14:56:58 2019
+Symbol Table                                                                                   Tue Jul 30 13:56:08 2019
 
                    ___fldiv@aexp 005A                     ___fldiv@bexp 0059  
                    ___fldiv@sign 0052                               l60 3C62  

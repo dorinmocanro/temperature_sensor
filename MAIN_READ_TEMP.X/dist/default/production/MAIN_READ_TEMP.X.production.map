@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.05\pic\dat\en_msgs.txt \
   -cs -h+dist/default/production\MAIN_READ_TEMP.X.production.sym \
   --cmf=dist/default/production\MAIN_READ_TEMP.X.production.cmf -z \
-  -Q18F2550 -oC:\Users\dorin\AppData\Local\Temp\sck4.2 \
+  -Q18F2550 -oC:\Users\dorin\AppData\Local\Temp\s1h8.2 \
   --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/MAIN_READ_TEMP.X.production.map -E1 -ver=XC8 \
   --acfsm=1493 -ASTACK=013Fh-07FFh -pstack=STACK -ACODE=00h-07FFFh \
@@ -24,7 +24,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\dorin\AppData\Local\Temp\sck4.o \
+  C:\Users\dorin\AppData\Local\Temp\s1h8.o \
   dist/default/production\MAIN_READ_TEMP.X.production.o 
 
 Object code version is 3.11
@@ -37,7 +37,7 @@ Call graph: (short form)
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\dorin\AppData\Local\Temp\sck4.o
+C:\Users\dorin\AppData\Local\Temp\s1h8.o
                 init                                  E        E        4        4       0
                 reset_vec                             0        0        4        0       0
                 idloc                            200000   200000        8   200000       0
@@ -1136,7 +1136,7 @@ Total ram usage:        5 bytes
 
  *************** function _temperature *****************
  Defined at:
-		line 114 in file "source/temperatureSensor.c"
+		line 113 in file "source/temperatureSensor.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1166,7 +1166,7 @@ Total ram usage:        2 bytes
 
  *************** function _update_ADC_results *****************
  Defined at:
-		line 98 in file "source/temperatureSensor.c"
+		line 97 in file "source/temperatureSensor.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2182,7 +2182,7 @@ Total ram usage:        6 bytes
 
  *************** function _Ohm2C *****************
  Defined at:
-		line 86 in file "source/temperatureSensor.c"
+		line 85 in file "source/temperatureSensor.c"
  Parameters:    Size  Location     Type
   x               2   76[BANK0 ] const unsigned int 
  Auto vars:     Size  Location     Type
@@ -2504,7 +2504,7 @@ Total ram usage:        0 bytes
 
  *************** function _setup_TMR0 *****************
  Defined at:
-		line 237 in file "Display.c"
+		line 237 in file "Display3.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2534,7 +2534,7 @@ Total ram usage:        0 bytes
 
  *************** function _ADC_setup *****************
  Defined at:
-		line 56 in file "source/temperatureSensor.c"
+		line 55 in file "source/temperatureSensor.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2564,7 +2564,7 @@ Total ram usage:        0 bytes
 
  *************** function _setupPortDisplay *****************
  Defined at:
-		line 110 in file "Display.c"
+		line 110 in file "Display3.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2624,7 +2624,7 @@ Total ram usage:        0 bytes
 
  *************** function _display3 *****************
  Defined at:
-		line 182 in file "Display.c"
+		line 182 in file "Display3.c"
  Parameters:    Size  Location     Type
   data3           2  125[BANK0 ] PTR const unsigned char 
 		 -> ADC_results.buffer(4), ADC_results(7), buffer(4), 
@@ -2694,7 +2694,7 @@ Total ram usage:        4 bytes
 
  *************** function _send_digit *****************
  Defined at:
-		line 161 in file "Display.c"
+		line 161 in file "Display3.c"
  Parameters:    Size  Location     Type
   data            1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -2726,7 +2726,7 @@ Total ram usage:        4 bytes
 
  *************** function _character_table *****************
  Defined at:
-		line 121 in file "Display.c"
+		line 121 in file "Display3.c"
  Parameters:    Size  Location     Type
   symbol          1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -2756,7 +2756,7 @@ Total ram usage:        3 bytes
 
  *************** function _my_ISR *****************
  Defined at:
-		line 216 in file "Display.c"
+		line 216 in file "Display3.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2788,7 +2788,7 @@ Total ram usage:        2 bytes
 
  *************** function _counting_ISR *****************
  Defined at:
-		line 222 in file "Display.c"
+		line 222 in file "Display3.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2818,7 +2818,7 @@ Total ram usage:        0 bytes
 
  *************** function _sensorRead_ISR *****************
  Defined at:
-		line 122 in file "source/temperatureSensor.c"
+		line 121 in file "source/temperatureSensor.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2850,7 +2850,7 @@ Total ram usage:        0 bytes
 
  *************** function _ADC_Read *****************
  Defined at:
-		line 108 in file "source/temperatureSensor.c"
+		line 107 in file "source/temperatureSensor.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -3028,17 +3028,6 @@ C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isalpha.c
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isalpha.c estimated size: 53
 
-Display.c
-		_display3      		CODE           	398C	0000	177
-		_setup_TMR0    		CODE           	4224	0000	21
-		_character_table		CODE           	363C	0000	243
-		_my_ISR        		CODE           	0008	0000	55
-		_send_digit    		CODE           	3EAE	0000	69
-		_counting_ISR  		CODE           	3FDC	0000	53
-		_setupPortDisplay		CODE           	420E	0000	23
-
-Display.c estimated size: 641
-
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
 		___wmul        		CODE           	41AC	0000	39
 
@@ -3069,6 +3058,17 @@ C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isdigit.c
 		_isdigit       		CODE           	40D2	0000	49
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\isdigit.c estimated size: 49
+
+Display3.c
+		_display3      		CODE           	398C	0000	177
+		_setup_TMR0    		CODE           	4224	0000	21
+		_character_table		CODE           	363C	0000	243
+		_my_ISR        		CODE           	0008	0000	55
+		_send_digit    		CODE           	3EAE	0000	69
+		_counting_ISR  		CODE           	3FDC	0000	53
+		_setupPortDisplay		CODE           	420E	0000	23
+
+Display3.c estimated size: 641
 
 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
 		___flsub       		CODE           	3E22	0000	71

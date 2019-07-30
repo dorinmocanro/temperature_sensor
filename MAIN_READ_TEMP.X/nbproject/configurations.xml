@@ -39,8 +39,8 @@
       <compileType>
         <linkerTool>
           <linkerLibItems>
-            <linkerLibFileItem>../LIB3x7SegmentDisplay.X/dist/default/production/LIB3x7SegmentDisplay.X.a</linkerLibFileItem>
-            <linkerLibFileItem>../LIB_Temperature_sensor.X/dist/default/production/LIB_Temperature_sensor.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../mylib/libraries/LIB_SegmentDisplay.X.a</linkerLibFileItem>
+            <linkerLibFileItem>../mylib/libraries/LIB_Temperature_sensor.X.a</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
         <archiverTool>
